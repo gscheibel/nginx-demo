@@ -16,7 +16,7 @@ spec:
         app: nginx
     spec:
       containers:
-      - image: registry.localhost:37775/nginx:latest
+      - image: nginx:latest
         name: nginx
         ports:
         - containerPort: 80
